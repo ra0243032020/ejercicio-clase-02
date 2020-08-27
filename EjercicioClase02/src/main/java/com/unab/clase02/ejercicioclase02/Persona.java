@@ -10,12 +10,8 @@ package com.unab.clase02.ejercicioclase02;
  * @author FAMILIA
  */
 public class Persona {
-    
-        protected String Nombre,Direccion,FechaNC,Genero;
-        protected int Edad; 
 
-        
-        
-    }
-    
+    protected String Nombre, Direccion, FechaNC, Genero;
+    protected int Edad;
 
+}

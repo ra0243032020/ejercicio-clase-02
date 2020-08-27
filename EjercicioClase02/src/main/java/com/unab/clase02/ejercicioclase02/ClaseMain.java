@@ -17,14 +17,12 @@ public class ClaseMain {
     public static void main(String[] args) {
         // TODO code application logic here
         
-//         Profesor profe = new Profesor("Willam", "El_Paraiso", "14/11/94", "m", 25, "ing", "PROGRAMADOR");
-//        System.out.println(profe.toString());
-
-        
-        Estudiante est = new Estudiante("Willam", "San Rafael", "03/10/2001", "M", 18, 1500, "ING. Sistemas y Computacion");
-        
+     Profesor profe = new Profesor("William", "El Praiso", "11/14/94", "M", 25, "ING", "PROGRAMADOR");
+        System.out.println(profe.toString());
+   
+    Estudiante est = new Estudiante("William", "San Rafael", "30/10/2001", "M", 18, 1500, "Ing. Sistemas y Computacion");
         System.out.println(est.toString());
-    
     }
+    
     
 }
